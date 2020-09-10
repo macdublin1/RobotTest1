@@ -38,7 +38,7 @@ SixthTest
     
     Input Text    name=q    Temple
     Press Keys    name=q    ENTER
-    Sleep     2
+    Sleep     3
     
     Close Browser
     Log    6st Test Completed    

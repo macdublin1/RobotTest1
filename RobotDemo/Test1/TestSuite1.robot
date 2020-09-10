@@ -15,7 +15,7 @@ MyFirstTest
 FirstSeleniumTest
     
     Open Browser    https://google.ie    chrome
-    Set Browser Implicit Wait    5
+    Set Browser Implicit Wait    2
     
     Input Text    name=q    Temple
     Press Keys    name=q    ENTER
@@ -65,8 +65,8 @@ ${URL}    https://opensource-demo.orangehrmlive.com/
 
 *** Keywords ***
 LoginKW
-    Input Text    id=txtUsername    @{CREDENTIALS}[0]
-    Input Text    id=txtPassword    &{LOGINDATA}[password]
+    Input Text    id=txtUsername    ${CREDENTIALS}[0]
+    Input Text    id=txtPassword    ${LOGINDATA}[password]
     Click Button    name=Submit
     
 
