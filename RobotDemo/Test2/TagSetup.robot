@@ -34,7 +34,7 @@ FifthTest
 SixthTest
     
     Open Browser    https://google.ie    chrome
-    Set Browser Implicit Wait    2
+    Set Browser Implicit Wait    3
     
     Input Text    name=q    Temple
     Press Keys    name=q    ENTER

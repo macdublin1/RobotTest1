@@ -28,7 +28,7 @@ FirstSeleniumTest
 SecondSeleniumTest
     [Documentation]    This is a login test
     Open Browser    ${URL}    chrome
-    Set Browser Implicit Wait    5
+    Set Browser Implicit Wait    3
     
     Input Text    id=txtUsername    ${CREDENTIALS}[0]
     Input Text    id=txtPassword    ${LOGINDATA}[password]
