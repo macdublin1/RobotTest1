@@ -30,3 +30,17 @@ FourthTest
 FifthTest
     [Tags]    Regression3
     Log   5th Test Completed.....
+    
+SixthTest
+    
+    Open Browser    https://google.ie    chrome
+    Set Browser Implicit Wait    2
+    
+    Input Text    name=q    Temple
+    Press Keys    name=q    ENTER
+    Sleep     2
+    
+    Close Browser
+    Log    6st Test Completed    
+    
+
