@@ -30,8 +30,8 @@ SecondSeleniumTest
     Open Browser    ${URL}    chrome
     Set Browser Implicit Wait    5
     
-    Input Text    id=txtUsername    @{CREDENTIALS}[0]
-    Input Text    id=txtPassword    &{LOGINDATA}[password]
+    Input Text    id=txtUsername    ${CREDENTIALS}[0]
+    Input Text    id=txtPassword    ${LOGINDATA}[password]
     Click Button    name=Submit
     Click Element    id=welcome
     Click Element    link=Logout    
